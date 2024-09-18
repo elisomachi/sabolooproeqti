@@ -1,0 +1,214 @@
+.logo {
+  align-content: center;
+  font-size: 60px;
+}
+
+ul {
+  display: flex;
+  direction: row;
+  gap: 40px;
+}
+
+li > a {
+  font-size: 25px;
+  color: #443c2d;
+  font-family: "MG Glaho Drunk", sans-serif;
+}
+
+.divflex {
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-calculator {
+  font-size: 47px;
+}
+
+.active {
+  color: #5a14b5;
+}
+
+.fa-bars {
+  font-size: 32px;
+  display: none;
+}
+
+@media (max-width: 963px) {
+  .fa-bars {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
+
+img.fixed {
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  width: 120px;
+  border-radius: 20%;
+}
+.container {
+  max-width: 1180px;
+  width: 92%;
+  margin: 0 auto;
+}
+.my {
+  margin-top: 130px;
+}
+
+body {
+  background-color: #f0ede8;
+}
+header {
+  background-color: #ccc3b2;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  color: #221e16;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section > img {
+  width: 184px;
+  height: 273px;
+}
+
+.div11,
+.div221,
+.div33 {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.div221,
+.div22,
+.div33 {
+  margin-top: 30px;
+}
+.my section {
+  width: 283.68px;
+  height: 307, 4px;
+}
+.key {
+  margin-top: 130px;
+}
+.s-1,
+.s-2,
+.s-3 {
+  background-color: #5a5140;
+  border-radius: 20px;
+  padding: 30px;
+  width: 400px;
+}
+
+.div21 {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.sax {
+  font-size: 40px;
+  transition: 0.7s;
+  color: rgb(60, 41, 41);
+  text-decoration: underline;
+}
+
+.sax:hover {
+  color: #ccc3b2;
+}
+
+.div22 {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: start;
+}
+.div111,
+.div2211,
+.div331 {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.pasuxi {
+  margin-bottom: 8px;
+  font-size: 50px;
+  color: blue;
+}
+.pasuxi:hover {
+  color: purple;
+}
+
+.div111 section,
+.div2211 section,
+.div331 section {
+  text-align: start;
+}
+.div111 img,
+.div2211 img,
+.div331 img {
+  text-align: start;
+  border-radius: 30%;
+}
+.chvenze {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+
+  background-color: #60594c;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+  margin-top: 130px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgb(45, 43, 43);
+}
+.p12 {
+  font-family: "ALK Life", sans-serif;
+  font-size: 30px;
+}
+.p12::first-letter {
+  font-size: 57px;
+}
+
+.did {
+  font-size: 50px;
+  color: rgb(8, 7, 11);
+  margin-top: 40px;
+}
+span {
+  color: #ccc3b2;
+}
+.es > p {
+  margin-top: 30px;
+}
+.es {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+::selection {
+  background-color: rgb(65, 179, 216);
+}
